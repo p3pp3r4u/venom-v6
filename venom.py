@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = 'TOKEN'
-ADMIN_ID = 'YOUR ID'
+API_TOKEN = '7272791058:AAFiRNfAWX5CG_08R-NrQnGgL3XX7RcFCHA'
+ADMIN_ID = '6742809995'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
@@ -57,4 +57,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logging.info("Venom script terminated by user.")
+        logging.info("eva script terminated by user.")
